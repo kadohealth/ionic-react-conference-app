@@ -17,6 +17,13 @@ https://github.com/ionic-team/ionic-vue-conference-app
 - [Getting Started](#getting-started)
 - [App Preview](#app-preview)
 
+What to do, find the android.support.v4.FileProvider in your <provider> in AndroidManifest.xml.
+
+Change it to androidx.core.content.FileProvider
+
+android.enableJetifier=true
+android.useAndroidX=true
+
 ## Getting Started
 
 * [Download the installer](https://nodejs.org/) for Node LTS.
