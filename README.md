@@ -1,13 +1,12 @@
 # Ionic React Conference Application
 
-The Ionic React Conference Application is a comprehensive demonstration of the Ionic Framework and React. It allows you to interact and learn Ionic and React in a real-world application context. Here's a quick breakdown of the main components:
+The Ionic React Conference Application is a comprehensive demonstration of the Ionic Framework and React. This application provides a real-world context which allows you to interact and learn Ionic and React by doing. It includes a variety of features such as browsing a schedule of events, reading about specific sessions or speakers, and even adding sessions to your personalized schedule. The application also has a map feature to help you find your way around the conference.
+
+Here's a quick breakdown of the main sections of the README:
 
 1. **Angular and Vue versions:** This Conference app is also available for developers who might prefer using Angular or Vue. You can access these versions through the links provided.
-
 2. **Getting Started:** This section provides detailed instructions on how to set up and run the project on your local machine.
-
 3. **App Preview:** This section gives you a visual preview of the application via interactive GIFs.
-
 4. **Contributing:** We highly encourage contributions from the community. This section provides a step-by-step guide on how you can contribute to this project.
 
 ## Angular and Vue versions
