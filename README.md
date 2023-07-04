@@ -1,69 +1,73 @@
 # Ionic React Conference Application
 
+The Ionic React Conference Application is a comprehensive demonstration of the Ionic Framework and React. It allows you to interact and learn Ionic and React in a real-world application context. Here's a quick breakdown of the main components:
 
-This application is purely a kitchen-sink demo of the Ionic Framework and React.
+1. **Angular and Vue versions:** This Conference app is also available for developers who might prefer using Angular or Vue. You can access these versions through the links provided.
 
-**There is not an actual Ionic Conference at this time.** This project is just to show off Ionic components in a real-world application.
+2. **Getting Started:** This section provides detailed instructions on how to set up and run the project on your local machine.
+
+3. **App Preview:** This section gives you a visual preview of the application via interactive GIFs.
+
+4. **Contributing:** We highly encourage contributions from the community. This section provides a step-by-step guide on how you can contribute to this project.
 
 ## Angular and Vue versions
 
-We've built versions of this Conference app in Angular and Vue for developers that would prefer to use one of those framework options:
+This Conference app is also available for developers who might prefer using Angular or Vue. You can access these versions through the following links:
 
-https://github.com/ionic-team/ionic-conference-app
-
-https://github.com/ionic-team/ionic-vue-conference-app
-
-## Table of Contents
-- [Getting Started](#getting-started)
-- [App Preview](#app-preview)
-
-What to do, find the android.support.v4.FileProvider in your <provider> in AndroidManifest.xml.
-
-Change it to androidx.core.content.FileProvider
-
-android.enableJetifier=true
-android.useAndroidX=true
+- [Ionic Angular Conference App](https://github.com/ionic-team/ionic-conference-app)
+- [Ionic Vue Conference App](https://github.com/ionic-team/ionic-vue-conference-app)
 
 ## Getting Started
 
-* [Download the installer](https://nodejs.org/) for Node LTS.
-* Install the ionic CLI globally: `npm install -g ionic`
-* Clone this repository: `git clone https://github.com/ionic-team/ionic-react-conference-app.git`.
-* Run `npm install` from the project root.
-* Run `ionic serve` in a terminal from the project root.
-* Profit. :tada:
+To get started with this project, follow the steps below:
+
+1. [Download the installer](https://nodejs.org/) for Node LTS. This project runs on Node.js, and we recommend using the long-term support (LTS) version.
+2. Install the Ionic CLI globally using npm (Node Package Manager): `npm install -g ionic`. You'll need this for running Ionic specific commands.
+3. Clone this repository to your local machine: `git clone https://github.com/ionic-team/ionic-react-conference-app.git`.
+4. Navigate to the project root directory and run `npm install` to install all necessary dependencies for the project.
+5. Once the installation is complete, run `ionic serve` in a terminal from the project root. This will start a local development server for the application.
+6. The application should now be accessible at `http://localhost:8100`. Happy coding! :tada:
 
 ## App Preview
+
+Experience the application's functionality through these interactive GIFs:
 
 ### [Menu](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/menu/menu.html)
 
 | Material Design  | iOS  |
 | -----------------| -----|
-| ![Android Menu](/resources/screenshots/android-menu.png) | ![iOS Menu](/resources/screenshots/ios-menu.png) |
-
+| ![Android Menu](/resources/screenshots/android-menu.gif) | ![iOS Menu](/resources/screenshots/ios-menu.gif) |
 
 ### [Schedule Page](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/schedule/schedule.html)
 
 | Material Design  | iOS  |
 | -----------------| -----|
-| ![Android Schedule](/resources/screenshots/android-schedule.png) | ![iOS Schedule](/resources/screenshots/ios-schedule.png) |
+| ![Android Schedule](/resources/screenshots/android-schedule.gif) | ![iOS Schedule](/resources/screenshots/ios-schedule.gif) |
 
 ### [Speakers Page](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/speaker-list/speaker-list.html)
 
 | Material Design  | iOS  |
 | -----------------| -----|
-| ![Android Speakers](/resources/screenshots/android-speakers.png) | ![iOS Speakers](/resources/screenshots/ios-speakers.png) |
+| ![Android Speakers](/resources/screenshots/android-speakers.gif) | ![iOS Speakers](/resources/screenshots/ios-speakers.gif) |
 
 ### [Speaker Detail Page](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/speaker-detail/speaker-detail.html)
 
 | Material Design  | iOS  |
 | -----------------| -----|
-| ![Android Speaker Detail](/resources/screenshots/android-speaker-detail.png) | ![iOS Speaker Detail](/resources/screenshots/ios-speaker-detail.png) |
+| ![Android Speaker Detail](/resources/screenshots/android-speaker-detail.gif) | ![iOS Speaker Detail](/resources/screenshots/ios-speaker-detail.gif) |
 
 ### [About Page](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/about/about.html)
 
 | Material Design  | iOS  |
 | -----------------| -----|
-| ![Android About](/resources/screenshots/android-about.png) | ![iOS About](/resources/screenshots/ios-about.png) |
+| ![Android About](/resources/screenshots/android-about.gif) | ![iOS About](/resources/screenshots/ios-about.gif) |
 
+## Contributing
 
+We greatly appreciate contributions from the community. To contribute:
+
+1. Fork this repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Push your changes to the new branch.
+5. Open a pull request.
