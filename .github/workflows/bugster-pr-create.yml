@@ -41,6 +41,7 @@ jobs:
       uses: docker://ghcr.io/bugster-ai/bugster-pr-workflow:latest
       env:
         BUGSTER_API_KEY: ${{ secrets.BUGSTER_API_KEY }}
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         base_branch: ${{ github.event.repository.default_branch }}
